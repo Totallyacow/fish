@@ -1,0 +1,114 @@
+# Fishing Plugin Configuration
+
+# Inventory sizes
+inventory_sizes:
+  upgradable_rods: 27
+  rod_upgrade: 27
+  enchantment: 27
+
+# Gem costs
+gem_cost_multiplier: 2
+
+# Loot pools
+loot_pools:
+  basic:
+    cod:
+      material: COD
+      chance: 50
+      min_amount: 1
+      max_amount: 3
+    salmon:
+      material: SALMON
+      chance: 30
+      min_amount: 1
+      max_amount: 2
+    tropical_fish:
+      material: TROPICAL_FISH
+      chance: 15
+      min_amount: 1
+      max_amount: 1
+    pufferfish:
+      material: PUFFERFISH
+      chance: 5
+      min_amount: 1
+      max_amount: 1
+    lesser_gem:
+      material: EMERALD
+      chance: 5
+      min_amount: 1
+      max_amount: 1
+      display_name: "&eLesser Upgrade Gem"
+      gem_level: 1
+
+  advanced:
+    diamond:
+      material: DIAMOND
+      chance: 1
+      min_amount: 1
+      max_amount: 1
+    emerald:
+      material: EMERALD
+      chance: 5
+      min_amount: 1
+      max_amount: 1
+    gold_ingot:
+      material: GOLD_INGOT
+      chance: 10
+      min_amount: 1
+      max_amount: 2
+    iron_ingot:
+      material: IRON_INGOT
+      chance: 20
+      min_amount: 1
+      max_amount: 3
+    greater_gem:
+      material: EMERALD
+      chance: 3
+      min_amount: 1
+      max_amount: 1
+      display_name: "&bGreater Upgrade Gem"
+      gem_level: 2
+
+  rare:
+    nether_star:
+      material: NETHER_STAR
+      chance: 1
+      min_amount: 1
+      max_amount: 1
+    enchanted_golden_apple:
+      material: ENCHANTED_GOLDEN_APPLE
+      chance: 2
+      min_amount: 1
+      max_amount: 1
+    totem_of_undying:
+      material: TOTEM_OF_UNDYING
+      chance: 3
+      min_amount: 1
+      max_amount: 1
+    elytra:
+      material: ELYTRA
+      chance: 4
+      min_amount: 1
+      max_amount: 1
+    epic_gem:
+      material: EMERALD
+      chance: 1
+      min_amount: 1
+      max_amount: 1
+      display_name: "&dEpic Upgrade Gem"
+      gem_level: 3
+
+# Rod types
+rod_types:
+  basic:
+    display_name: "&fBasic Fishing Rod"
+    material: FISHING_ROD
+    max_slots: 3
+  advanced:
+    display_name: "&aAdvanced Fishing Rod"
+    material: FISHING_ROD
+    max_slots: 5
+  expert:
+    display_name: "&bExpert Fishing Rod"
+    material: FISHING_ROD
+    max_slots: 7

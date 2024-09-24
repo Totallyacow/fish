@@ -1,0 +1,6 @@
+name: fish2
+version: '1.0-SNAPSHOT'
+main: me.cow.fish2.Fish2
+api-version: '1.21'
+authors: [ Totallyacow ]
+description: Fish? Plug?
